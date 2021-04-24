@@ -4,7 +4,7 @@ namespace ws_HW4._1
 {
     class Program
     {
-        static bool IsValidSequence(string halfDNASequence)
+     static bool IsValidSequence(string halfDNASequence)
         {
             foreach (char nucleotide in halfDNASequence)
             {
@@ -16,7 +16,7 @@ namespace ws_HW4._1
             return true;
         }
 
-        static string ReplicateSeqeunce(string halfDNASequence)
+     static string ReplicateSeqeunce(string halfDNASequence)
         {
             string result = "";
             foreach (char nucleotide in halfDNASequence)
@@ -25,12 +25,7 @@ namespace ws_HW4._1
             }
             return result;
         }
-     /*   static void process(bool Sequence , string halfDNASequence)
-        {
-           
-        }*/
-
-        static void Main(string[] args)
+     static void Main(string[] args)
         {
             char continued;
             do {
