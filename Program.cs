@@ -64,7 +64,7 @@ namespace ws_HW4._1
                     continued = char.Parse(Console.ReadLine());
                     if (continued != 'Y' && continued != 'N')
                     {
-                        Console.Write("Please input Y or N :");
+                        Console.WriteLine("Please input Y or N :");
                     }
                 } while (continued != 'Y' && continued != 'N');
           }while(continued=='Y');
